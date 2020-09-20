@@ -1,0 +1,54 @@
+/*.chap-1{
+	margin: 10px;
+}*/
+.img-chap-1{
+	width: 350px;
+	float: right;
+	margin: 20px;
+}
+.doan{
+	width: 75%px;
+	padding: 20px; 
+}
+.sec-1{
+	margin-top: 20px;
+	margin: 20px;
+	font-size: 24px;
+}
+.khoi-bai-viet{
+	width: 100%;
+	border-bottom: 2px solid black;
+	font-size: 18px;
+}
+#khoi-bai-viet{
+	font-weight: bold;
+	font-size: 24px;
+}
+.khung{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#font{
+	font-size: 18px;
+}
+.paragraph{
+	font-size: 24px;
+	padding-left: 20px;
+}
+.button{
+	background-color: back;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.img-2{
+	width: 500px;
+	margin: 20px;
+}
+.table{
+	border-collapse: collapse;
+	margin: 20px;
+	width: 95%;
+	height: 650px;
+	font-size: 20px;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>Bài tập lập trình 1</title>
+</head>
+<body>
+	<div class="khoi-bai-viet">
+		<h1 class="chap-1">Chapter 1</h1>
+		<!-- <h2 class="sec-1">Section 1</h2> -->
+	</div>
+	<!-- --------------------------------------------------------- -->
+	<div class="khoi-bai-viet">
+		<img class="img-chap-1" src="img/1200px-Lorem_ipsum_design.svg.png">
+		<h2 class="sec-1">Section 1</h2>
+		<p align="justify" class="doan">
+			&emsp;&emsp;&emsp;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+			<br><br>
+			&emsp;&emsp;&emsp;Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui.
+			</p>
+		</div>
+	</div>
+	<!-- --------------------------------------------------------- -->
+	<div class="khoi-bai-viet">
+	 <h2 id="khoi-bai-viet">Your information</h2>
+		<form class="khung">
+			<label for="What's your name?" id="font">What's your name?</label>
+			<br>
+			<input type="text" name="What's your name?" placeholder="your name">
+		</form>
+		<form class="khung">
+			<label for="Your ID">Your ID:</label>
+			<br>
+			<input type="number" name="Your ID" placeholder="your id">
+		</form>
+		<form class="khung">
+			<label for="Your password">Your password:</label>
+			<br>
+			<input type="text" name="Your password" placeholder="your password">
+		</form>
+		<p class="paragraph">What's your favorite subject?</p>
+		<div class="khung">
+			<input type="checkbox" name="subject1" value="">
+			<label for="subject1">Maths</label><br>
+			<input type="checkbox" name="subject2" value="">
+			<label for="subject2">Enghlish</label><br>
+			<input type="checkbox" name="subject3" value="">
+			<label for="subject3">Science</label><br>
+			<input type="checkbox" name="subject4" value="">
+			<label for="subject4">Information technology</label><br>
+			<input type="checkbox" name="subject5" value="">
+			<label for="subject5">Chemistry</label><br>
+			<button class="button" type="button" onclick="alert('Save your information successed!')">Click Me!</button>
+		</div>
+	</div>
+	<!-- --------------------------------------------------------- -->
+	<div class="khoi-bai-viet">
+		<h2>My favorite book</h2>
+		<img src="img/IMG_0539.jpg" class="img-2">
+	</div>
+	<!-- --------------------------------------------------------- -->
+	<div class="khoi-bai-viet">
+		<style type="text/css">
+			#father{
+            border:4px solid;
+            width: 95%;
+            overflow:auto;
+        }
+			table, th, td{
+            border:1px solid #868585;
+        }
+			th, td{
+            text-align:left;
+            padding:10px;
+        }
+        table tr:nth-child(odd){
+            background-color:#eee;
+        }
+        table tr:nth-child(even){
+            background-color:white;
+        }
+        table tr:nth-child(1){
+            background-color:skyblue;
+        }
+    </style>
+		
+		<h2>TABLE OF COLORS</h2>
+		<table class="table" border="1" id="father">
+			<tr>
+				<th>Color</th>
+				<th>Color Name</th>
+				<th>Hex code</th>
+				<th>RBG value</th>
+			</tr>
+			<tr>
+				<td style="background-color: Black"></td>
+				<td>Black</td>
+				<td>#000000</td>
+				<td>(0,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color: White"></td>
+				<td>White</td>
+				<td>#FFFFFF</td>
+				<td>(255,255,255)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Red"></td>
+				<td>Red</td>
+				<td>#FF0000</td>
+				<td>(255,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Lime"></td>
+				<td>Lime</td>
+				<td>#00FF00	</td>
+				<td>(0,255,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Blue"></td>
+				<td>Blue</td>
+				<td>#0000FF	</td>
+				<td>(0,0,255)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Yellow"></td>
+				<td>Yellow</td>
+				<td>#FFFF00	</td>
+				<td>(255,255,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Cyan"></td>
+				<td>Cyan/Aqua</td>
+				<td>#00FFFF	</td>
+				<td>(0,255,255)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Magenta"></td>
+				<td>Magenta/Fuchsia</td>
+				<td>#FF00FF	</td>
+				<td>(255,0,255)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Silver"></td>
+				<td>Silver</td>
+				<td>#C0C0C0	</td>
+				<td>(192,192,192)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Gray"></td>
+				<td>Gray</td>
+				<td>#808080	</td>
+				<td>(128,128,128)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Maroon"></td>
+				<td>Maroon</td>
+				<td>#800000</td>
+				<td>(128,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Olive"></td>
+				<td>Olive</td>
+				<td>#808000</td>
+				<td>(128,128,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Green"></td>
+				<td>Green</td>
+				<td>#008000</td>
+				<td>(0,128,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Purple"></td>
+				<td>Purple</td>
+				<td>#800080</td>
+				<td>(128,0,128)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Teal"></td>
+				<td>Teal</td>
+				<td>#008080</td>
+				<td>(0,128,128)</td>
+			</tr>
+			<tr>
+				<td style="background-color: Navy"></td>
+				<td>Navy</td>
+				<td>#000080</td>
+				<td>(0,0,128)</td>
+			</tr>
+		</table>
+	</div>
+	<!-- --------------------------------------------------------- -->
+</body>
+</html>
